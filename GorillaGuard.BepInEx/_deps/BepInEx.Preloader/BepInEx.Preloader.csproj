@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>BepInEx.Preloader</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net35</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Core" />
+    <Reference Include="BepInEx">
+      <HintPath>D:\DOWNloads\GorillaGuard-1.12.31-one-session-signed\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>D:\DOWNloads\GorillaGuard-1.12.31-one-session-signed\MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>D:\DOWNloads\GorillaGuard-1.12.31-one-session-signed\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>D:\DOWNloads\GorillaGuard-1.12.31-one-session-signed\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="HarmonyXInterop">
+      <HintPath>D:\DOWNloads\GorillaGuard-1.12.31-one-session-signed\HarmonyXInterop.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>D:\DOWNloads\GorillaGuard-1.12.31-one-session-signed\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
